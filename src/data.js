@@ -1,3 +1,17 @@
+import scoops from './assets/icons/scoops.png';
+import earnings from './assets/icons/earnings.png';
+import awards from "./assets/icons/awards.png";
+import expansion from "./assets/icons/expansion.png";
+import positions from "./assets/icons/positions.png";
+import hire from "./assets/icons/hire.png";
+import analytics from "./assets/icons/analytics.png";
+import budgeting from "./assets/icons/budgeting.png";
+import communications from "./assets/icons/communications.png";
+import technology from "./assets/icons/technology.png";
+import legal from "./assets/icons/legal.png";
+import infrastructure from "./assets/icons/infrastructure.png";
+import marketing from "./assets/icons/marketing.png";
+
 const dummyData = {
     "stories": [
         "All", 
@@ -28,58 +42,58 @@ const dummyData = {
         "upperHalf": [
             {
                 "name": "Hot Scoops",
-                "icon": "../../assets/icons/scoops.png"
+                "icon": scoops
             },
             {
                 "name": "Earnings",
-                "icon": "../../assets/icons/earnings.png"
+                "icon": earnings
             },
             {
                 "name": "Awards",
-                "icon": "../../assets/icons/awards.png"
+                "icon": awards
             },
             {
                 "name": "Expansion",
-                "icon": "../../assets/icons/expansion.png"
+                "icon": expansion
             },
             {
                 "name": "Open Positions",
-                "icon": "../../assets/icons/positions.png"
+                "icon": positions
             },
             {
                 "name": "New Hire",
-                "icon": "../../assets/icons/hire.png"
+                "icon": hire
             },
         ],
 
         "lowerHalf": [
             {
                 "name": "Analytics & Reporting", 
-                "icon": "../../assets/icons/analytics.png"
+                "icon": analytics
             },
             {
                 "name": "Budgeting & Planning", 
-                "icon": "../../assets/icons/budgeting.png"
+                "icon": budgeting
             },
             {
                 "name": "Communications", 
-                "icon": "../../assets/icons/communications.png"
+                "icon": communications
             },
             {
                 "name": "Technology",
-                "icon": "../../assets/icons/technology.png"
+                "icon": technology
             },
             {
                 "name": "Legal",
-                "icon": "../../assets/icons/legal.png"
+                "icon": legal
             },
             {
                 "name": "Infrastructure",
-                "icon": "../../assets/icons/infrastructure.png"
+                "icon": infrastructure
             },
             {
                 "name": "Marketing",
-                "icon": "../../assets/icons/marketing.png"
+                "icon": marketing
             },
         ]
     },
@@ -143,3 +157,5 @@ const dummyData = {
         },
     ]
 }
+
+export default dummyData;
