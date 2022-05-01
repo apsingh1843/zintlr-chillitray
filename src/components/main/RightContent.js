@@ -4,7 +4,7 @@ import dummyData from '../../data';
 const RightContent = () => {
   return (
     <div className="w-30% p-2">
-        <div className=" bg-white rounded-md shadow-sm">
+        <div className=" bg-white rounded-md shadow-sm w-80">
             <h2 className="text-lg font-bold p-4 border-b border-gray-300">Recent Searches</h2>
             {dummyData.recentSearches.map((item, index) => {
                 return(
@@ -17,7 +17,7 @@ const RightContent = () => {
             <p className="text-blue-600 p-4 text-sm font-bold">Show More</p>
         </div>
 
-        <div className=" bg-white rounded-md shadow-sm mt-8">
+        <div className=" bg-white rounded-md shadow-sm w-80 mt-8">
             <h2 className="text-lg font-bold p-4 border-b border-gray-300">Topics to follow</h2>
             {dummyData.topicsToFollow.map((item, index) => {
                 return(

@@ -4,7 +4,7 @@ import dummyData from '../../data';
 const Sidebar = () => {
     const[active, setActive] = useState('Hot Scoops');
     const styles = {
-        itemDiv : "flex flex-row gap-4 items-center py-3 px-8 hover:bg-blue-50 ease-linear duration-100 rounded-r-full cursor-pointer",
+        itemDiv : "flex flex-row gap-3 items-center py-3 px-8 hover:bg-blue-50 ease-linear duration-100 rounded-r-full cursor-pointer",
     }
 
     return (
@@ -12,8 +12,11 @@ const Sidebar = () => {
             <div className="flex flex-col border-b-2 border-gray-300 py-6">
                 {dummyData.sidebarItems.upperHalf.map((item, index) =>{
                     return(
-                        <div key={index} className={`${active === item.name ? "bg-blue-50": ""} ${styles.itemDiv}`} 
+                        <div key={index} className={`${active === item.name && "bg-blue-50"} ${styles.itemDiv}`} 
                             onClick={()=> setActive(item.name)}>
+                            {active === item.name && 
+                                <img src={require('../../assets/icons/active-dot.png')} alt=" " className="-ml-5" />
+                            }
                             <span>
                                 <img src={item.icon} alt={item.name}  />
                             </span>
@@ -30,6 +33,9 @@ const Sidebar = () => {
                     return(
                         <div key={index} className={`${active === item.name ? "bg-blue-50": ""} ${styles.itemDiv}`} 
                             onClick={()=> setActive(item.name)}>
+                            {active === item.name && 
+                                <img src={require('../../assets/icons/active-dot.png')} alt=" " className="-ml-5" />
+                            }
                             <span>
                                 <img src={item.icon} alt={item.name}  />
                             </span>
