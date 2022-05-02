@@ -30,12 +30,30 @@ const dummyData = {
     ],
 
     "topicsToFollow": [
-        "UX Design", 
-        "Technology", 
-        "Python", 
-        "Expansion", 
-        "Legal", 
-        "New Hire",
+        {
+            "name": "UX Design",
+            "category": "Design"
+        }, 
+        {
+            "name": "Technology",
+            "category": "All about Technology"
+        }, 
+        {
+            "name": "Python",
+            "category": "Computer Programming"
+        }, 
+        {
+            "name": "Expansion",
+            "category": "Topic"
+        }, 
+        {
+            "name": "Legal",
+            "category": "Topic"
+        }, 
+        {
+            "name": "New Hire",
+            "category": "Topic"
+        },
     ],
 
     "sidebarItems": {

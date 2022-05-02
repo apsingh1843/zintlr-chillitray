@@ -37,6 +37,7 @@ const Navbar = () => {
             <div className="flex flex-row items-center gap-2">
                 <img src={require('../../assets/icons/notification.png')} alt=' ' />
                 <span className="text-16px font-semibold">Bansilal Batra</span>
+                <img src={require('../../assets/icons/arrow.png')} alt=' ' />
             </div>
             <img src={require('../../assets/images/avatar.png')} alt='profile' />
             <button type="button" className="border-0 rounded-xl shadow bg-orange-300 py-2 px-4 text-sm font-bold">

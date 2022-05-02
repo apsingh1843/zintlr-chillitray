@@ -6,7 +6,7 @@ function App() {
   return (
       <div>
           <Navbar />
-          <div className="flex flex-row w-full my-8">
+          <div className="flex flex-row w-full mt-8 mb-32">
               <Sidebar />
               <Main />
           </div>  

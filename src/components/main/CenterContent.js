@@ -15,12 +15,13 @@ const CenterContent = () => {
                 </div>
             );
             })}
+            <img className="ml-auto mr-8" src={require('../../assets/icons/dots.png')} alt=' ' />
         </div>
 
         <div className="flex flex-col gap-8 mt-10">
             {dummyData.mainData.map((item,index)=> {
                 return(
-                    <div key={index} className="rounded-md bg-white p-4 shadow-md">
+                    <div key={index} className="rounded-md bg-white p-4 content-shadow">
                         <div className="flex flex-row gap-1">
                             <div>
                                 <div className="text-sm font-bold text-gray-500">
